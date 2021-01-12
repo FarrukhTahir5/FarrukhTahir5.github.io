@@ -278,7 +278,6 @@ header span{
 /* The footer is fixed to the bottom of the page */
 
 footer{
-	position: fixed;
 	bottom: 0;
 }
 
