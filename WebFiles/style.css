@@ -1,0 +1,276 @@
+body {
+    color: white;
+    background-color: #1b1b1b;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+.wholePage {
+    display: flex;
+    flex-direction: column;
+}
+
+.Home {
+    background-color: #1b1b1b;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    -webkit-mask-image: -webkit-gradient(linear, left center, left bottom, from(rgb(160, 12, 12)), to(rgba(0, 0, 0, 0)));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-image: url("./assets/house.png");
+}
+
+.Header {
+    align-items: center;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0));
+}
+
+.Logo {
+    font-family: 'Wellfleet', cursive;
+    width: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 1px;
+}
+
+.Logo>img {
+    padding-left: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+.Logo>.first {
+    width: 33px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.Logo>span {
+
+    width: 120px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    color: white;
+    position: absolute;
+    font-size: small;
+    top: 35px;
+}
+
+.header-text {
+    margin-left: 50%;
+}
+
+.header-text>span {
+    width: 63px;
+    height: 20px;
+    margin-right: 25px;
+    font-size: 14px;
+}
+
+.header-text>button {
+    background: #FFFBFB;
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.header-text>span:hover {
+    cursor: pointer;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.header-text>button:hover {
+    cursor: pointer;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 139.52%;
+    /* or 89px */
+
+    letter-spacing: 0.03em;
+}
+
+.yellow {
+    color: #ff9505;
+}
+
+.About {
+    background-color: #1b1b1b;
+}
+
+.home-Text>h1 {
+    font-size: 4.5vw;
+    margin-bottom: 10.4vw;
+}
+
+.About {
+
+    font-weight: 200;
+    flex-direction: row;
+    background-color: #1b1b1b;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    -webkit-mask-image: -webkit-gradient(linear, left center, left bottom, from(rgb(160, 12, 12)), to(rgba(0, 0, 0, 0)));
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./assets/buildings.png");
+
+}
+
+.About>.Left {
+
+    margin-top: 20vw;
+    margin-left: 15vw;
+    margin-right: 100px;
+    margin-bottom: 20vw;
+    flex-flow: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 35vw;
+}
+
+.About>.Left>h1 {
+    font-size: 2vw;
+    color: #ff9505;
+    margin: 0px;
+}
+
+.ReadMore {
+    background: #FFFBFB;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-weight: bold;
+
+}
+
+.About>.right {
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 10vw;
+    margin-top: 10vw;
+    text-align: center;
+    max-width: 13vw;
+    font-weight: 100;
+}
+
+.About>.right>.Section>h1 {
+    font-size: 2vw;
+    margin: 0px;
+    color: #ff9505;
+}
+
+.AboutPage>.right {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+    margin-top: 15vw;
+    font-weight: 100;
+}
+
+.AboutPage>.right>.Section>h1 {
+    font-size: 2vw;
+    margin: 0px;
+    color: #ff9505;
+}
+
+.AboutPage>.Left {
+    flex-flow: column;
+    justify-content: center;
+    display: flex;
+    width: 50vw;
+}
+
+.AboutPage>.Left>h1 {
+    text-align: start;
+    font-size: 4vw;
+    margin: 0;
+}
+
+.AboutPage>.Left>p {
+    font-size: 2vw;
+    max-width: 37vw;
+}
+
+.AboutPage {
+    height: 50vw;
+    font-weight: 200;
+    flex-direction: row;
+    background-color: #1b1b1b;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    -webkit-mask-image: -webkit-gradient(linear, left center, left bottom, from(rgb(160, 12, 12)), to(rgba(0, 0, 0, 0)));
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input {
+    width: 15vw;
+    font-size: large;
+    color: white;
+    margin-left: 2vw;
+    margin-top: 3vw;
+    background-color: #1b1b1b;
+    border: 0px;
+    border-bottom: 1px solid white;
+}
+
+.form12 {
+    display: flex;
+}
+
+.form34 {
+    display: flex;
+
+}
+
+.message {
+    width: 92%;
+    display: flex;
+}
+
+input:focus {
+    outline: none;
+}
+
+.Submit {
+    background: #FFFBFB;
+    border-radius: 8px;
+    padding: 12px 48px;
+    font-weight: bold;
+    display: flex;
+    margin-left: 2vw;
+    margin-top: 3vw;
+}
+
+button {
+
+    font-family: 'Montserrat';
+}
